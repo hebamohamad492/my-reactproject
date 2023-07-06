@@ -1,0 +1,44 @@
+.detail{
+position: absolute;    
+    top:590px;
+    left: 1200px;
+    width: 100px;
+    height: 32px;
+    border: 1px solid white;
+    font-family: 'Vazirmatn';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 22px;
+    border-radius: 10%;
+    text-align: center;
+    letter-spacing: -0.408px;
+    padding: 5px;
+    color: #000000;
+    
+}.comments{
+  
+box-sizing: border-box;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+width: 675.04px;
+height: 110px;
+left: 755.23px;
+background: #345D68;
+border: 1px solid #000000;
+border-radius: 10px;
+margin-bottom: 50px;
+}
+.comment_container{
+    position: absolute;
+    top:650px;
+    bottom: 600px;
+    /* background-color: darkgoldenrod; */
+    width: 70%;
+    right: 10px;
+    height:500px;
+gap:10px;
+}

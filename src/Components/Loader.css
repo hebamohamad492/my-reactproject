@@ -1,0 +1,12 @@
+.loader{
+    z-index: 2000;
+    width: 100%;
+    position: absolute;
+    opacity: 0.8;
+    background-color:cadetblue;
+    border-radius: 50px;
+    height: 400px;
+
+    /* background-size: 1000px 1900px; */
+
+}

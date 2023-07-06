@@ -1,0 +1,289 @@
+.warsha-logo{
+
+position: absolute;
+width: 200px;
+height: 150px;
+left: 1200px;
+top: 180px;
+border-radius: 50%;
+background:white;
+border: 3px solid #193745;
+align-items: center;
+background: url(imag1.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size:60%;
+}.title1{
+    
+position: absolute;
+top: 50px;
+font-family:'Blaka Ink';
+font-style: normal;
+font-weight: 400;
+font-size: 65px;
+line-height: 22px;
+letter-spacing: -0.408px;
+margin-left: 20px;
+color: #161815;
+
+transform: matrix(1, -0.07, 0.06, 1, 0, 0);
+}.title2{
+position: absolute;
+width: 617px;
+height: 120px;
+left: 600px;
+top: 206px;
+font-family: 'Vazirmatn';
+font-style: normal;
+font-weight: 400;
+font-size: 55px;
+line-height: 70px;
+text-align: center;
+letter-spacing: -0.408px;
+color: #FFFFFF;
+/* animation-name: example; */
+/* animation-duration: 1.5s;  
+animation-fill-mode: forwards; */
+}#members{
+    position: absolute;
+width: 567px;
+height: 30px;
+/* left: 150px; */
+top: 374px;
+font-family: 'Vazirmatn';
+font-style: normal;
+font-weight: 400;
+font-size: 55px;
+/* line-height: 30px; */
+text-align: center;
+letter-spacing: -0.408px;
+color: #FFFFFF;
+animation-name: exampl;
+animation-duration: 2s;  
+animation-fill-mode: forwards;
+animation-delay: 0.2s;
+
+}@keyframes exampl{
+    from{
+        left: 0px;
+        top: 374px ;
+    }to{
+        left: 150px;
+        top:  374px;
+    }
+}.designer{ 
+position: absolute;
+width: 200px;
+height: 200px;
+right: 0px;
+top: 478px;
+background: url(bayan.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size:100% ;
+border-radius: 50%;
+border: 2px solid white;
+animation-name: examp1;
+animation-duration: 4s;  
+animation-delay:2s;
+animation-fill-mode: forwards;
+visibility: hidden;
+}@keyframes examp1{
+    from{
+        right: 0px;
+        top:478px ;
+        visibility:visible;
+    }to{
+        right: 200px;
+        top: 478px;
+        visibility:visible;
+
+    }
+}#design{
+position: absolute;
+width: 147px;
+height: 30px;
+left: 0px;
+top: 590px;
+font-family: 'Vazirmatn';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 30px;
+letter-spacing: -0.408px;
+color: #FFFFFF;
+animation-name: examp2;
+animation-duration: 6s;  
+animation-fill-mode: forwards;
+animation-delay: 3s;
+visibility: hidden;
+}@keyframes examp2{
+    from{
+        left: 0px;
+        top:590px ;
+        visibility: visible;
+    }to{
+        left:860px ;
+        top: 590px;
+        visibility: visible;
+
+    }
+}.flutter{
+    top: 699px;
+    position: absolute;
+   display: flex;
+}.front{
+position: absolute;
+top: 1000px;
+width: 100%;
+display: flex;
+}.heba,.aya2{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 100px;
+    background-repeat: no-repeat;
+    background-size:100% ;
+    border-radius: 50%;
+    border: 2px solid white;
+
+}.heba{
+
+animation-name: example2;
+animation-duration: 9s; 
+left: 900px; 
+animation-fill-mode: forwards;
+animation-delay: 5s;
+visibility: hidden;
+
+/* animation-iteration-count: 2; */
+}@keyframes example2{
+    from{
+        left: 0px;
+        top:100px ;
+        visibility: visible;
+
+    }to{
+        left:900px ;
+        visibility: visible;
+        top: 100px;
+    }
+}.aya2{
+    animation-name: example22;
+    animation-duration: 7s;  
+    animation-fill-mode: forwards;
+    animation-delay: 5s;
+    right: 50px;
+    visibility: hidden;
+    /* animation-iteration-count: 2; */
+    }@keyframes example22{
+        from{
+            right: 0px;
+            top:100px ;
+        visibility: visible;
+        }to{
+            right:50px ;
+            top: 100px;
+        visibility: visible;
+        }
+
+}.aya,.eman,.mohamed{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 100px;
+    background-repeat: no-repeat;
+    background-size:100% ;
+    border-radius: 50%;
+    border: 2px solid white;
+    /* animation-name: example3;
+    animation-duration: 6s;  
+    animation-fill-mode: forwards;
+    }@keyframes example3{
+        from{
+            left: 0px;
+            top:590px ;
+        }to{
+            left:860px ;
+            top: 590px;
+        } */
+}.flutergirl{
+/* 
+    animation-name: example31;
+    animation-duration: 6s;  
+    animation-fill-mode: forwards;
+    }@keyframes example31{
+        from{
+            left: 0px;
+            top:100px ;
+        }to{
+            left:30px ;
+            top: 100px;
+        } */
+}.back{
+    position: absolute;
+    display: flex;
+    top: 1330px;
+    width: 100%;
+}.sara{
+    position: absolute;
+    top: 100px;
+width: 200px;
+left: 80px;
+height: 200px;
+background: url(S.png);
+background-repeat: no-repeat;
+background-size:100% ;
+border-radius: 50%;
+border: 2px solid white;
+animation-name: example42;
+    animation-duration: 6s;  
+    animation-fill-mode: forwards;
+    animation-delay: 9s;
+    /* animation-iteration-count: 2; */
+    }@keyframes example42{
+        from{
+            left:0px;
+            top:100px ;
+        }to{
+             left: 80px ;
+            top: 100px;
+        }
+
+}.yassmeen{
+position: absolute;
+width: 200px;
+top: 100px;
+height: 200px;
+/* left: 255px; */
+background: url(Y.png);
+background-repeat: no-repeat;
+background-size:100% ;
+border-radius: 50%;
+right: 900px;
+border: 2px solid white;
+  animation-name: example41;
+    animation-duration: 9s;  
+    animation-fill-mode: forwards;
+    /* animation-iteration-count: 2; */
+    animation-delay:9s ;
+    }@keyframes example41{
+        from{
+            right:0px;
+            top:100px ;
+        }to{
+            right:900px ;
+            top: 100px;
+        }
+}.h3{
+    position: absolute;
+    top: 210px;
+    color: darkgoldenrod;
+    display: flex;
+    justify-content: center;
+    /* color: #FFFFFF; */
+    line-height: 40px;
+    text-align: center;
+    width: 200px;
+    font-style: italic;
+}

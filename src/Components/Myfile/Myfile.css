@@ -1,0 +1,50 @@
+
+.fily{
+display: flex;
+    position: absolute;
+width: 200px;
+height: 200px;
+left: 900px;
+top: 200px;
+background: url(H.png);
+background-repeat: no-repeat;
+background-size:100% ;
+border-radius: 50%;
+border: 2px solid white;
+}.shopimage{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 70px;
+    top: 100px;
+    background: url(H.png);
+    background-repeat: no-repeat;
+    background-size:100% ;
+    
+    border: 2px solid white;
+}.link{
+    /* position: absolute; */
+    color: black;
+    line-height: 30px;
+    text-decoration: none;
+    margin-right: 100px;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 10px;
+
+}.link:hover{
+    color: aliceblue;
+    font-size: larger;
+}.p{
+
+font-family: 'Vazirmatn';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+/* line-height: 39px; */
+
+
+text-align: center;
+color: #000000;
+
+}

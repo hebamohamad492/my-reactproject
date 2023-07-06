@@ -1,0 +1,62 @@
+.backDrop{
+    z-index: 1000;
+    position:fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.8;
+    /* background-color:black; */
+     /* visibility: hidden; */
+     background-image: url("istockphoto-1085287936-170667a.webp");
+     transition:  visibility 1s;
+     background-repeat:no-repeat;
+     background-size: 1600px 1000px;
+}
+
+.overlay{
+    z-index: 1500;
+    position: absolute;
+    width: 33% ;
+    background-image: url("photo-1519750783826-e2420f4d687f.jpg");
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    transform: translate(-50%,-50%);
+    background-position: center;
+    top: 200px;
+    /* background-color: rgb(0, 88, 139); */
+    border-radius: 10%;
+    visibility: visible;
+    border: 1px solid white;
+    animation-name: example;
+    animation-duration: 3s;  
+    animation-fill-mode: forwards;
+}
+@keyframes example {
+    from {
+        top: 0px;
+        left: 50%;
+    }
+    to {
+        top: 50%;
+        left: 50%;
+    }
+  }.over2{
+    display: flex;
+    height: 600px;
+    width: 600px;
+    background-color: bisque;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+/* .formclass{
+    margin-top: 100px;
+} */
+
+
+
+
+
+

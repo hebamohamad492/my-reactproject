@@ -1,0 +1,17 @@
+input[name='rating']{
+
+    display: none;
+}#star{
+    cursor: pointer;
+    transition: color 200ms;
+    /* color: beige; */
+}.on{
+    color:#ffc107;
+}.off{
+    color:#e4e5e9 ;
+    /* color:#ffc107; */
+
+}.default{
+    color:#ffc107;
+
+}

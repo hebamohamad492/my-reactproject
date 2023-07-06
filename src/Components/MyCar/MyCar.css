@@ -1,0 +1,14 @@
+.backgcar{
+
+    position: absolute;
+    width: 500px;
+    height: 285px;
+    left: 150px;
+    top: 200px;
+    /* background: url(car1.png); */
+    background-repeat: no-repeat;
+    background-size:100% ;
+    background-image: url(car1.png);
+    border-radius: 10%;
+    border: 2px solid white;
+}
